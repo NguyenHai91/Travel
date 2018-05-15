@@ -1,0 +1,15 @@
+a:hover {
+  transition: all 0.3s;
+}
+
+section::after {
+  @extend %clearfix;
+}
+.clear-fix::after {
+  @extend %clearfix;
+}
+.hide {
+  display: none;
+}
+
+

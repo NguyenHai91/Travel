@@ -1,0 +1,57 @@
+body {
+	margin: 0 auto;
+	background: $bg-color;
+	font: 14px $font-stack;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+
+.container {
+	width: 100%;
+	padding: 0 40px;
+	margin: 0 auto;
+}
+
+.section-head {
+	font: 24px $font-myriad-pro;
+	float: left;
+	color: $white-color;
+	text-transform: uppercase;
+	padding-top: 5px;
+}
+
+@media screen and (max-width: 1599px) {
+	.container {
+		padding: 0 30px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.container {
+		padding: 0 15px;
+	}
+	.section-head {
+		font-size: 20px;
+		padding-top: 7px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.section-head {
+		font-size: 14px;
+		padding-top: 7px;
+	}
+}
+@media screen and (max-width: 479px) {
+	.section-banner {
+		.section-title {
+			font-size: 22px;
+		}
+	}
+	.section-head {
+		font-size: 14px;
+		padding-top: 7px;
+	}
+}
